@@ -54,55 +54,49 @@ The register keyword in C and C++ is used to suggest to the compiler that a part
 Code -
 ```
 1.
-
-
-
-2.
-//subham
-//23070123132
-//entc b2
+//Soham
+//23070123084
+//entc B1
 //experiment 2
 #include<iostream>
 using namespace std;
-int main()
-{
-    int a;
-    cout<<"enter any integer:";
-    cin>>a;
-    cout<<"\ninteger ="<<a<<" and size is "<<sizeof(a)<< "bytes";
-    float b;
-    cout<<"\nenter a number:";
-    cin>>b;
-    cout<<"\nfloat ="<<b<<" and size is "<<sizeof(b)<< "bytes";
-    short int c;
-    cout<<"\nenter an integer:";
-    cin>>c;
-    cout<<"\nshort integer ="<<c<<" and size is"<<sizeof(c)<< "bytes";
+int main() {
+    cout<<"size of char:"<<"sizeof(char)"<< "byte(s)"<<endl;
+    cout<<"size of int:"<<"sizeof(int)"<< "byte(s)"<<endl;
+    cout<<"size of short int:"<<"sizeof(short int)"<<"byte(s)"<<endl;
+    cout<<"size of long int:"<<"size of (long int)"<<"byte(s)"<<endl;
+    cout<<"size of float:"<<"size of(float)"<<"byte(s)"<<endl;
+    cout<<"size of double:"<<"size of(double)"<<"byte(s)"<<endl;
+    cout<<"size of long double:"<<"size of(long double)"<<endl;
+    cout<<"size of bool:"<<"size of(bool)"<<endl;
     return 0;
 }
+
 2.
-//subham
-//23070123132
-//entc b2
-//experiment 2
+//Soham
+//23070123084
+//entc b1
+//experiment 2B
 #include<iostream>
 using namespace std;
-int main()
-{
+int main() {
     int a;
-    cout<<"enter any integer:";
+    cout<<"Enter any integer:";
     cin>>a;
-    cout<<"\ninteger ="<<a<<" and size is "<<sizeof(a)<< "bytes";
+    cout<<"\ninteger="<<a<<" and "<<sizeof(a)<< "bytes";
     float b;
-    cout<<"\nenter a number:";
+    cout<<"Enter a number:";
     cin>>b;
-    cout<<"\nfloat ="<<b<<" and size is "<<sizeof(b)<< "bytes";
+    cout<<"\nfloat="<<b<<" and "<<sizeof(b)<< "bytes";
     short int c;
-    cout<<"\nenter an integer:";
+    cout<<"Enter an integer:";
     cin>>c;
-    cout<<"\nshort integer ="<<c<<" and size is"<<sizeof(c)<< "bytes";
+    cout<<"\nshort integer"<<c<<" and "<<sizeof(c)<< "bytes";
     return 0;
 }
+
+2.
+
 ```
 ## Explanation -
 The program uses the sizeof operator to determine and display the size of various data types in bytes. It includes common data types such as int, float, double, char,bool,register,auto,short int,long int,long double and others.
