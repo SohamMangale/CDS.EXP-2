@@ -51,9 +51,9 @@ The auto keyword is a powerful tool in C++ that can lead to cleaner, more mainta
 Register data type:-
 The register keyword in C and C++ is used to suggest to the compiler that a particular variable should be stored in a CPU register, if possible, for faster access.
 
-Code -
-```
+## Code -
 1.
+```
 //Soham
 //23070123084
 //entc B1
@@ -72,8 +72,8 @@ int main() {
     return 0;
 }
 ```
-```
 2.
+```
 //Soham
 //23070123084
 //entc b1
@@ -96,8 +96,8 @@ int main() {
     return 0;
 }
 ```
-```
 2.
+```
 //Soham
 //23070123084
 //entc b1
