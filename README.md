@@ -71,7 +71,8 @@ int main() {
     cout<<"size of bool:"<<"size of(bool)"<<endl;
     return 0;
 }
-
+```
+```
 2.
 //Soham
 //23070123084
@@ -94,23 +95,49 @@ int main() {
     cout<<"\nshort integer"<<c<<" and "<<sizeof(c)<< "bytes";
     return 0;
 }
-
+```
+```
 2.
+//Soham
+//23070123084
+//entc b1
+//experiment 2C
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"Enter any integer:";
+    cin>>a;
+    cout<<"integer ="<<a<<" and size is"<<sizeof(a)<<"bytes";
+    register int b;
+    cout<<"Enter a number:";
+    cin>>b;
+    cout<<"register ="<<b<<" and size is "<<sizeof(b)<<"bytes";
+    auto c =0;
+    cout<<"Enter an integer:";
+    cin>>c;
+    cout<<"auto ="<<c<<"size is"<<sizeof(c)<<"bytes";
+    return 0;
+}
 
 ```
 ## Explanation -
 The program uses the sizeof operator to determine and display the size of various data types in bytes. It includes common data types such as int, float, double, char,bool,register,auto,short int,long int,long double and others.
 
 ## Output-
-1.
-Screenshot 2024-07-30 224910
+1.![image](https://github.com/user-attachments/assets/394e92df-bb97-438f-a993-8cf48639d642)
+
 
 2.
-
-
-3.![image](https://github.com/user-attachments/assets/1a54e879-3768-4047-9d67-f140a13d5afd)
+![image](https://github.com/user-attachments/assets/9b7dd1d5-8931-41a4-bfe7-00f3522cb32e)
 
 
 
-Conclusion -
+3.
+![image](https://github.com/user-attachments/assets/1a54e879-3768-4047-9d67-f140a13d5afd)
+
+
+
+# Conclusion -
 This program helps in understanding how much memory is allocated for different data types, which is important for writing efficient and optimized code.
