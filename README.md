@@ -1,4 +1,4 @@
-## Experiment 2
+### Experiment 2
 
 # Aim-
 To study and implement C++ program(Data types)
